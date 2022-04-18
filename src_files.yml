@@ -1,0 +1,4 @@
+camera_ctrl:
+  files: [
+    camera_ctrl.sv
+  ]
