@@ -1,0 +1,113 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS release 6.10 (Final)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[DBG_FLAG_DEP] Debug Option is being Deprecated
+  The '-fsdb_old' debug-related option is being deprecated and will no longer 
+  be supported in a future release.
+  Please recompile using the '-debug_access<+options>' switch and incremental 
+  options as required.  Recommended options are '-debug_access' for 
+  post-process debug, '-debug_access+classdbg' for testbench debug, and 
+  '-debug_access+all' for all debug capabilities.  Refer the VCS user guide 
+  for more granular options for debug control under the switch '-debug_access'
+  and refer to '-debug_region' for region control.
+
+Command: vcs ../camera_ctrl_tb.sv ../camera_ctrl.sv -F ../filelist.f -fsdb_old -R \
++vc +v2k -v2k_generate -sverilog -l run.log +lint=TFIPC-L +error+30 -P /export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/novas.tab \
+/export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/pli.a -debug_pp -LDFLAGS \
+-rdynamic
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Apr 18 16:59:54 2022
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[OBSV2G] Use of the -v2k_generate switch
+  This switch will be obsolete in future VCS releases.
+  To disable this warning message please add "+warn=noOBSV2G" on command line.
+
+Parsing design file '../camera_ctrl_tb.sv'
+Parsing design file '../camera_ctrl.sv'
+Parsing design file '../axi_slice_dc/dc_data_buffer.v'
+Parsing design file '../axi_slice_dc/dc_full_detector.v'
+Parsing design file '../axi_slice_dc/dc_synchronizer.v'
+Parsing design file '../axi_slice_dc/dc_token_ring_fifo_din.v'
+Parsing design file '../axi_slice_dc/dc_token_ring_fifo_dout.v'
+Parsing design file '../axi_slice_dc/dc_token_ring.v'
+Parsing design file '../axi_spi_slave/spi_slave_dc_fifo.sv'
+Top Level Modules:
+       camera_ctrl_tb
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+2 unique modules to generate
+2 modules and 0 UDP read. 
+recompiling package std
+recompiling module camera_ctrl_tb
+All of 2 modules done
+make[1]: Entering directory `/home/xycui/Work/camera_ctrl_AXI_combined/simulation/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic -rdynamic   amcQwB.o objs/amcQw_d.o \
+_24457_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libzerosoft_rt_stubs.so \
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libvirsim.so /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/liberrorinf.so \
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libsnpsmalloc.so /export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/pli.a \
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libvcsnew.so /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libsimprofile.so \
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libuclinative.so   -Wl,-whole-archive \
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libvcsucli.so -Wl,-no-whole-archive \
+_vcs_pli_stub_.o   /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/xycui/Work/camera_ctrl_AXI_combined/simulation/csrc' \
+
+Command: ./simv +vc +v2k -a run.log +lint=TFIPC-L +error+30
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Apr 18 16:59 2022
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux x86_64/64bit, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'pulpino.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+*Verdi3* : fsdbDumpon - All FSDB files at 0 ns.
+0x0a10200c:
+000007ff
+
+0x1a102018:
+04030201
+
+0x0a10200c:
+00000803
+
+0x1a102018:
+06050403
+
+0x0a10200c:
+00000807
+
+0x1a102018:
+08070605
+
+$stop at time 2480 Scope: camera_ctrl_tb File: ../camera_ctrl_tb.sv Line: 136
+
+q
+            V C S   S i m u l a t i o n   R e p o r t 
+Time: 2480 ns
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Mon Apr 18 16:59:58 2022
+CPU time: .189 seconds to compile + .232 seconds to elab + .130 seconds to link + .340 seconds in simulation
