@@ -1,0 +1,6 @@
+camera_ctrl:
+  files: [
+    camera_ctrl.sv
+    camera_buffer.sv,
+    camera2axi.sv
+  ]

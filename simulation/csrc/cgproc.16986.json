@@ -1,0 +1,43 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "camera_ctrl_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {
+        "ikEhH_d": {
+            "out": "ikEhH_d.o",
+            "mod": "camera_ctrl_tb",
+            "bytes": 102829,
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.1/_16986_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_16986_archive_1.a",
+            "objects": [
+                [
+                    "ikEhH_d.o",
+                    102829
+                ]
+            ],
+            "size": 102829
+        }
+    ]
+}

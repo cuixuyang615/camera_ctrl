@@ -1,0 +1,127 @@
+{
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "camera_ctrl_tb": [
+            "camera_ctrl_tb",
+            "ikEhH",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 39895,
+                "out": "reYIK_d.o",
+                "mod": "std",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7395,
+                "out": "objs/amcQw_d.o",
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "camera_ctrl_tb": {
+            "ikEhH_d": {
+                "bytes": 103361,
+                "out": "ikEhH_d.o",
+                "mod": "camera_ctrl_tb",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_16986_archive_1.a"
+            }
+        }
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "camera_ctrl_tb",
+        "camera_ctrl_tb"
+    ],
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "totalObjSize": 208408,
+        "ru_childs_end": {
+            "ru_maxrss_kb": 21084,
+            "ru_utime_sec": 0.0019989999999999999,
+            "ru_minflt": 647,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 1,
+            "ru_majflt": 0,
+            "ru_nivcsw": 2
+        },
+        "ru_self_cgstart": {
+            "ru_maxrss_kb": 62240,
+            "ru_utime_sec": 0.074987999999999999,
+            "ru_minflt": 14751,
+            "ru_stime_sec": 0.023996,
+            "ru_nvcsw": 22,
+            "ru_majflt": 0,
+            "ru_nivcsw": 24
+        },
+        "nQuads": 3600,
+        "ru_self_end": {
+            "ru_maxrss_kb": 71032,
+            "ru_utime_sec": 0.13098000000000001,
+            "ru_minflt": 18270,
+            "ru_stime_sec": 0.028995,
+            "ru_nvcsw": 23,
+            "ru_majflt": 0,
+            "ru_nivcsw": 28
+        },
+        "ru_childs_cgstart": {
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "quadSpeed": 64294.899271324459,
+        "nMops": 8585,
+        "mop/quad": 2.3847222222222224,
+        "mopSpeed": 153325.47506786679,
+        "CodeGen(%)": 42.748511223087505,
+        "outputSizePerQuad": 57.0,
+        "Frontend(%)": 57.251488776912502
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 105579
+    },
+    "CompileStatus": "Successful",
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.16986.json"
+    ],
+    "Misc": {
+        "daidir_abs": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation/simv.daidir",
+        "cwd": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation",
+        "csrc_abs": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation/csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.1"
+    }
+}

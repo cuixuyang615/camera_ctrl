@@ -1,0 +1,133 @@
+0 
+45
++cli+3
++cli+4
++error+30
++itf+/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/vcsdp.tab
++lint=TFIPC-L
++memcbk
++v2k
++vc
++vcsd
++vpi
+-F ../filelist.f
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/export/homeO1/synopsys/vcsmx-2016.6/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic -rdynamic
+-Mobjects= /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libvirsim.so /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/liberrorinf.so /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libsnpsmalloc.so /export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/export/homeO1/synopsys/vcsmx-2016.6/include
+-P
+-Xcbug=0x1
+-Xpiyushb1=0x80
+-Xvcs_run_simv=1
+-debug=3
+-fsdb_old
+-gen_obj
+-l
+-picarchive
+-sverilog
+-v2k_generate
+../camera2axi.sv
+../camera_buffer.sv
+../camera_ctrl.sv
+../camera_ctrl_tb.sv
+/export/homeO1/synopsys/vcsmx-2016.6/linux64/bin/vcs1
+/export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/novas.tab
+run.log
+62
+sysc_uni_pwd=/home/xycui/Work/camera_ctrl_AXI_seperate/simulation
+XRDP_SOCKET_PATH=/tmp/.xrdp
+XRDP_SESSION=1
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_39
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_39
+XDG_SESSION_COOKIE=d5e325dcd87764aa20c64a1a0000000e-1650096426.435027-759766612
+VMR_MODE_FLAG=32
+VERDI_HOME=/export/homeO1/synopsys/verdi3-2016.6
+VERDI_DIR=/export/homeO1/synopsys/verdi3-2016.6
+VCS_UVM_HOME=/export/homeO1/synopsys/vcsmx-2016.6/etc/uvm-1.2
+VCS_TARGET_ARCH=linux64
+VCS_MX_HOME_INTERNAL=1
+VCS_LOG_FILE=run.log
+VCS_HOME=/export/homeO1/synopsys/vcsmx-2016.6
+VCS_DIR=/export/homeO1/synopsys/vcsmx-2016.6
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/export/homeO1/synopsys/vcsmx-2016.6/linux64
+Synopsys_Dir=/export/homeO1/synopsys
+SSH_AUTH_SOCK=/tmp/keyring-ZJbweP/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=20737
+SOCE=/export/homeO1/cadence/EDI141R4
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/20736,unix/unix:/tmp/.ICE-unix/20736
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+PTS_HOME=/export/homeO1/synopsys/pts_2014.06
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-xycui
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MGLS_LICENSE_FILE=/export/homeO1/flexlm/mentor/mentor.dat
+MGC_HOME=/export/homeO1/mentor/calibre2016.3/aoi_cal_2016.3_28.17
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/xycui/.gtkrc-1.2-gnome2
+GNOME_KEYRING_SOCKET=/tmp/keyring-ZJbweP/socket
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GIO_LAUNCHED_DESKTOP_FILE_PID=25717
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/Terminal.desktop
+DVE=/export/homeO1/synopsys/vcsmx-2016.6/gui/dve
+DESKTOP_STARTUP_ID=
+DC_HOME=/export/homeO1/synopsys/syn_2014.09
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ATvEDBYDuF,guid=54fa87a3e0b79f6d75e31891009f8b9d
+CVS_RSH=ssh
+COLORTERM=Terminal
+CDS_LIC_FILE=5280@cloudsst:/export/homeO1/flexlm/cadence/license_mm151.dat:/export/homeO1/flexlm/cadence/cadence_5141.dat
+CALIBRE_HOME=/export/homeO1/mentor/calibre2016.3/aoi_cal_2016.3_28.17
+CALIBRE=/export/homeO1/mentor/calibre2016.3/aoi_cal_2016.3_28.17
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+14
+1643964416 ../axi_spi_slave/spi_slave_dc_fifo.sv
+1643964412 ../axi_slice_dc/dc_token_ring.v
+1643964412 ../axi_slice_dc/dc_token_ring_fifo_dout.v
+1643964412 ../axi_slice_dc/dc_token_ring_fifo_din.v
+1643964412 ../axi_slice_dc/dc_synchronizer.v
+1643964412 ../axi_slice_dc/dc_full_detector.v
+1643964412 ../axi_slice_dc/dc_data_buffer.v
+1650354875 ../camera2axi.sv
+1650354813 ../camera_buffer.sv
+1650354887 ../camera_ctrl.sv
+1650179842 ../camera_ctrl_tb.sv
+1650180507 ../filelist.f
+1464145466 /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/vcsdp.tab
+1468145700 /export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/novas.tab
+5
+0 
+1464147802 /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libvirsim.so
+1464147272 /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/liberrorinf.so
+1464147248 /export/homeO1/synopsys/vcsmx-2016.6/linux64/lib/libsnpsmalloc.so
+1468144468 /export/homeO1/synopsys/verdi3-2016.6/share/PLI/VCS/LINUX64/pli.a
+1650354910 simv.daidir

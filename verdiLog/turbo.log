@@ -1,0 +1,3 @@
+Command Line: /export/homeO1/synopsys/verdi3-2016.6/platform/LINUXAMD64/bin/Novas +v2k -sverilog -ssf ./simulation/pulpino.fsdb -sswr ./waveform/waveform.rc
+uname(Linux cloudsst 2.6.32-754.31.1.el6.x86_64 #1 SMP Wed Jul 15 16:02:21 UTC 2020 x86_64)
+au time 135.779064 8.946640 7.043929 delta 391946240 391946240 total 770568192 770568192

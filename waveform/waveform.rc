@@ -1,0 +1,105 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 1409 873 167 81
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/xycui/Work/camera_ctrl/simulation/pulpino.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 379.409511 1041.243801
+cursor 1030.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 15
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/xycui/Work/camera_ctrl/simulation/pulpino.fsdb"
+addSignal -h 15 /camera_ctrl_tb/iclk
+addSignal -h 15 -holdScope pclk
+addSignal -h 15 /camera_ctrl_tb/testblock0/rst_n
+addSignal -h 15 /camera_ctrl_tb/href
+addSignal -h 15 -holdScope vsync
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -HEX /camera_ctrl_tb/aw_addr_o
+addSignal -h 15 -holdScope aw_ready_i
+addSignal -h 15 -holdScope aw_valid_o
+addSignal -h 15 -holdScope w_ready_i
+addSignal -h 15 -holdScope w_valid_o
+addSignal -h 15 -holdScope b_ready_o
+addSignal -h 15 -holdScope b_valid_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_data_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_ctrl
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_reg
+addGroup "G3"
+addSignal -h 15 /camera_ctrl_tb/testblock0/axi_send_en
+addSignal -h 15 -holdScope rdreq
+addSignal -h 15 -holdScope wrreq
+addSignal -h 15 -holdScope FIFO_read_valid
+addSignal -h 15 -holdScope FIFO_write_ready
+addSignal -h 15 -UNSIGNED -HEX -holdScope FIFO_data_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope FIFO_data_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope RAM_ADDR
+addSignal -h 15 -UNSIGNED -HEX -holdScope addr_bias
+addSignal -h 15 -holdScope buff_done
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_buffer
+addSignal -h 15 -UNSIGNED -HEX -holdScope next_state
+addSignal -h 15 -UNSIGNED -HEX -holdScope state
+addGroup "G4"
+addSignal -h 15 -UNSIGNED -BIN /camera_ctrl_tb/testblock0/DC_fifo/read_pointer
+addSignal -h 15 -UNSIGNED -BIN -holdScope write_token
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/xycui/Work/camera_ctrl/simulation/pulpino.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/camera_ctrl_tb"
+"/camera_ctrl_tb/testblock0"
+"/camera_ctrl_tb/testblock0/DC_fifo"
+
+SCOPE_LIST_BEGIN
+"/camera_ctrl_tb"
+"/camera_ctrl_tb/testblock0"
+"/camera_ctrl_tb/testblock0/DC_fifo"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

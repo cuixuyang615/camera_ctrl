@@ -1,0 +1,99 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "Misc": {
+        "cwd": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation",
+        "csrc": "csrc",
+        "archive_dir": "archive.0",
+        "csrc_abs": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/xycui/Work/camera_ctrl_AXI_seperate/simulation/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "camera_ctrl_tb": [
+            "camera_ctrl_tb",
+            "ikEhH",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileProcesses": [
+        "cgproc.15935.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "outputSizePerQuad": 70.0,
+        "ru_self_cgstart": {
+            "ru_maxrss_kb": 62212,
+            "ru_stime_sec": 0.018997,
+            "ru_utime_sec": 0.077988000000000002,
+            "ru_minflt": 15535,
+            "ru_majflt": 0,
+            "ru_nvcsw": 24,
+            "ru_nivcsw": 16
+        },
+        "mopSpeed": 147557.37959338521,
+        "ru_childs_cgstart": {
+            "ru_maxrss_kb": 22104,
+            "ru_stime_sec": 0.0009990000000000001,
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_minflt": 616,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "nMops": 8557,
+        "nQuads": 3639,
+        "totalObjSize": 257026,
+        "CodeGen(%)": 42.647026379073232,
+        "ru_self_end": {
+            "ru_maxrss_kb": 71048,
+            "ru_stime_sec": 0.028995,
+            "ru_utime_sec": 0.13597899999999999,
+            "ru_minflt": 18830,
+            "ru_majflt": 0,
+            "ru_nvcsw": 24,
+            "ru_nivcsw": 18
+        },
+        "mop/quad": 2.3514701841165153,
+        "ru_childs_end": {
+            "ru_maxrss_kb": 22104,
+            "ru_stime_sec": 0.0009990000000000001,
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_minflt": 616,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "quadSpeed": 62751.116552568514,
+        "Frontend(%)": 57.352973620926768
+    },
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 106375
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "camera_ctrl_tb",
+        "camera_ctrl_tb"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStatus": "Successful"
+}
